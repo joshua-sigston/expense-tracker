@@ -1,0 +1,19 @@
+.new_expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 1em 0;
+}
+  
+input {
+  width: 15rem;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

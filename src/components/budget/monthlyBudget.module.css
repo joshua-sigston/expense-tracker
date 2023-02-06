@@ -1,0 +1,56 @@
+:root {
+    --bunker: #222831;
+    --cloud-burst: #393E46;
+    --iris-blue: #00ADB5;
+    --whisper: #EEEEEE;
+
+
+    --ff-title: 'Montserrat', sans-serif;
+    --ff-sub-title: 'Hind Guntur', sans-serif;
+    --ff-paragraph: 'Hind Madurai', sans-serif;
+
+    --transition-one: 300ms ease-in-out;
+    --transition-two: 600ms ease-in-out;
+    --transition-three: 800ms ease-in-out;
+
+    --fw-light: 300;
+    --fw-reg: 400;
+    --fw-md: 500;
+    --fw-semi-bold: 600;
+}
+
+.budget_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    background-color: var(--whisper);
+    margin-bottom: 1em;
+}
+
+.budget_container h2 {
+    font-family: var(--ff-title);
+    counter-reset: var(--cloud-burst);
+}
+
+.budget_container span {
+    color: var(--iris-blue);
+}
+
+.current_budget {
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.change_budget__container {
+    margin: .5em auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.change_budget__container input {
+    height: 2rem;
+}

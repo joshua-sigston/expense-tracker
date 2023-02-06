@@ -1,0 +1,9 @@
+.chart_container {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: var(--whisper);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+  }

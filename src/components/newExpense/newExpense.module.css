@@ -1,0 +1,9 @@
+.new_expense {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 9rem;
+    padding-bottom: 1em;
+    border-radius: .5rem;
+    background-color: var(--whisper);
+}

@@ -1,0 +1,35 @@
+:root {
+  --bunker: #222831;
+  --cloud-burst: #393E46;
+  --iris-blue: #00ADB5;
+  --whisper: #EEEEEE;
+
+
+  --ff-title: 'Montserrat', sans-serif;
+  --ff-sub-title: 'Hind Guntur', sans-serif;
+  --ff-paragraph: 'Hind Madurai', sans-serif;
+
+  --transition-one: 300ms ease-in-out;
+  --transition-two: 600ms ease-in-out;
+  --transition-three: 800ms ease-in-out;
+
+  --fw-light: 300;
+  --fw-reg: 400;
+  --fw-md: 500;
+  --fw-semi-bold: 600;
+}
+
+.expense_date__container {
+  width: 5rem;
+  padding: .5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5rem;
+  background-color: var(--whisper);
+}
+
+.date_type {
+  font-weight: bold;
+  color: var(--bunker);
+}

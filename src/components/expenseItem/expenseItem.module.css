@@ -1,0 +1,44 @@
+.expense_item__container {
+  padding: 1em;
+  margin: 1em auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--cloud-burst);
+}
+
+.expense_item__info {
+  text-align: center;
+  width: 10rem;
+  padding: .5em;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--whisper);
+}
+
+.expense_item__title {
+  font-family: var(--ff-sub-title);
+  font-size: 1.2rem;
+}
+
+.expense_amount__container {
+  padding: .5em 1em;
+  border-radius: .5rem;
+  background-color: var(--cloud-burst);
+  display: flex;
+  align-items: center;
+}
+
+.expense_item__amount {
+  font-weight: bold;
+  color: var(--iris-blue);
+}
+
+.expense_item__info span {
+  color: var(--whisper);
+  font-size: 1.2rem;
+  margin-right: .3em;
+}

@@ -1,0 +1,16 @@
+.expenses_filter {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em 0;
+}
+
+label {
+  font-weight: bold;
+  color: var(--whisper);
+}
+
+select {
+  width: 10rem;
+}
